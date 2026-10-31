@@ -1,0 +1,10 @@
+# служебное
+node_modules/
+.DS_Store
+Thumbs.db
+
+# локальные копии профиля и тестовые сборки
+.dshtest/
+work/
+extract/
+*.log
