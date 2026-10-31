@@ -1,36 +1,36 @@
-﻿{
-    "name":  "dsh-locale-ru",
-    "version":  "1.0.0",
-    "private":  true,
-    "description":  "Russian language pack for the DeepSeek Harness web GUI",
-    "keywords":  [
-                     "deepseek-harness",
-                     "dsh",
-                     "locale",
-                     "i18n",
-                     "russian",
-                     "ru"
-                 ],
-    "type":  "module",
-    "main":  "lib/index.js",
-    "exports":  {
-                    ".":  "./lib/index.js",
-                    "./client":  "./lib/client.js",
-                    "./package.json":  "./package.json"
-                },
-    "files":  [
-                  "lib/index.js",
-                  "lib/client.js"
-              ],
-    "dsh":  {
-                "client":  {
-                               "platform":  "web",
-                               "immediately":  true
-                           }
-            },
-    "repository":  {
-                       "type":  "git",
-                       "url":  "https://github.com/alacrity-mlw/dsh-locale-ru.git"
-                   },
-    "homepage":  "https://github.com/alacrity-mlw/dsh-locale-ru"
+{
+  "name": "dsh-locale-ru",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Russian language pack for the DeepSeek Harness web GUI",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "locale",
+    "i18n",
+    "russian",
+    "ru"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alacrity-mlw/dsh-locale-ru.git"
+  },
+  "homepage": "https://github.com/alacrity-mlw/dsh-locale-ru",
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
 }
